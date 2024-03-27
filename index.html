@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Nandni Gupta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a style="text-decoration: none;"
+        class="btn btn-color-2"
+        href="files/resume.pdf" download
+      >
+        Download CV
+      </a>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact me</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="files/img1.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nandni Gupta</h1>
+        <!-- <p class="section__text__p2">Frontend Developer</p> -->
+        <div class="typings">
+            <p>Web Developer</p>
+            <p>Coder</p>
+            <p>Rapper</p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+          <img
+            src="files/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/nandni-gupta-5a047a252'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <p class="intro">I'm currently pursuing B.Tech degree from Banasthali University. I've got some hands-on experience on front-end development and I'm learning back-end development as the later is a little more of my interest. I'm also solving DSA problems side-by-side to keep up with logic building. As a student I've dealt with the problem of time management and consistency while studying and can proudly say that I'm good at it. I'm comfortable in public speaking and relations. <br> Open to joining a team and a working environment!! </p>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container1">
+              <h2>Experience</h2>
+              <!-- <p>2+ years <br />Frontend Development</p> -->
+              <div class="main-container">
+                <div class="line">
+                    
+                </div>
+                <div class="card left">
+                        <h1> Nov 2022</h1>
+                    <p>Fundraising intern at Muskurahat Foundation
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/experience.png"
+                             alt="Image">
+                    </div>
+                </div>
+                <div class="card right">
+                    <h1> July 2023</h1>
+                    <p>web-dev intern at Octanet pvt. lmt.
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/experience.png"
+                             alt="Image">
+                    </div>
+                </div>
+                <div class="card left">
+                    <h1> Aug 2023</h1>
+                    <p>Band Member at Temple org.
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/experience.png"
+                             alt="Image">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="details-container1">
+              <h2>Education</h2>
+              <div class="main-container">
+                <div class="linee">
+                    
+                </div>
+                <div class="card left">
+                        <h1>High School</h1>
+                    <p>PCM <br> 93.2%
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/education.png"
+                             alt="Image">
+                    </div>
+                </div>
+                <div class="card right">
+                    <h1> Senior Secondary</h1>
+                    <p>PCMG <br> 97.3%
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/education.png"
+                             alt="Image">
+                    </div>
+                </div>
+                <div class="card left">
+                    <h1> Bachelors  </h1>
+                    <p>B.Tech (IT) <br> cgpa: 8.7 <br> currently pursuing
+                    </p>
+                    <div class="thumbnail">
+                        <img src=
+    "files/education.png"
+                             alt="Image">
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="experience">
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <div class="h-line">
+
+              </div>
+            </div>
+              <h2 class="experience-sub-title space">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="files/e-commerce.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nandni-Gupta/E-Commerce-website'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nandni-gupta.github.io/e-commerce'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="files/todo.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nandni-Gupta/To-Do-website'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nandni-gupta.github.io/To-Do-website'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="files/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nandni.1gupta@gmail.com">nandni.1gupta@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="files/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/nandni-gupta-5a047a252">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="contact-lower">
+        <form action="index.html">
+            <input type="text" placeholder="your name here" required>
+            <input type="email" placeholder="your email here" required>
+            <textarea name="" id="" cols="20" rows="5" required></textarea>
+            <button  class="btn btn-color-2"  type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
